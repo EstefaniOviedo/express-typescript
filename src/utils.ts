@@ -40,7 +40,7 @@ const isWeather = (param: any): boolean => {
 }
 
 const isString = (string: string): boolean => {
-    return typeof string === 'string' || string instanceof String
+    return typeof string === 'string'
 }
 
 const isDate = (date: string): boolean =>{
